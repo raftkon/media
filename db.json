@@ -1,5 +1,22 @@
 {
-  "users": [{ "id": 1, "name": "Myra" }],
+  "users": [
+    {
+      "name": "Jacqueline Herzog",
+      "id": 18
+    },
+    {
+      "name": "Kim O'Hara",
+      "id": 19
+    },
+    {
+      "name": "Dr. Marcia Collier II",
+      "id": 27
+    },
+    {
+      "name": "Emilio Durgan",
+      "id": 28
+    }
+  ],
   "albums": [],
   "photos": []
 }

@@ -1,4 +1,6 @@
+import classNames from "classnames";
 import React from "react";
+import { GoSync } from "react-icons/go";
 
 const Button = ({
   children,
@@ -9,7 +11,8 @@ const Button = ({
   danger,
   outline,
   rounded,
-  className,
+  className = "",
+  loading,
   ...otherProps
 }) => {
   const getClassFromProps = () => {
@@ -39,14 +42,16 @@ const Button = ({
       }`;
     }
   };
+  const finalClassNames = classNames(
+    "flex items-center px-3 py-1.5 border h-8 ",
+    getClassFromProps(),
+    rounded && "rounded-lg",
+    className
+  );
+
   return (
-    <button
-      {...otherProps}
-      className={`flex items-center px-3 py-1.5 border
-        ${getClassFromProps()} ${rounded && "rounded-lg"}
-        ${className ? className : ""}`}
-    >
-      {children}
+    <button {...otherProps} disabled={loading} className={finalClassNames}>
+      {loading ? <GoSync className="animate-spin" /> : children}
     </button>
   );
 };
