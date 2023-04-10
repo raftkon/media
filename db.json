@@ -17,6 +17,98 @@
       "id": 30
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "userId": 27,
+      "title": "Intelligent Metal Cheese",
+      "id": 25
+    },
+    {
+      "userId": 27,
+      "title": "Handmade Granite Pizza",
+      "id": 27
+    },
+    {
+      "userId": 27,
+      "title": "Bespoke Plastic Chips",
+      "id": 28
+    },
+    {
+      "userId": 27,
+      "title": "Generic Soft Sausages",
+      "id": 30
+    },
+    {
+      "userId": 27,
+      "title": "Modern Concrete Chips",
+      "id": 32
+    },
+    {
+      "userId": 27,
+      "title": "Handmade Bronze Chair",
+      "id": 33
+    },
+    {
+      "userId": 29,
+      "title": "Incredible Cotton Pants",
+      "id": 34
+    },
+    {
+      "userId": 27,
+      "title": "Elegant Plastic Computer",
+      "id": 35
+    },
+    {
+      "userId": 29,
+      "title": "Refined Concrete Ball",
+      "id": 36
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=74111",
+      "albumId": 25,
+      "id": 1
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=26529",
+      "albumId": 25,
+      "id": 2
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=90702",
+      "albumId": 25,
+      "id": 3
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=31282",
+      "albumId": 25,
+      "id": 4
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=9285",
+      "albumId": 25,
+      "id": 6
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=93301",
+      "albumId": 25,
+      "id": 7
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=6092",
+      "albumId": 25,
+      "id": 8
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=82377",
+      "albumId": 25,
+      "id": 9
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=42450",
+      "albumId": 27,
+      "id": 10
+    }
+  ]
 }
